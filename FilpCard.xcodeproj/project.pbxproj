@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDE45A712230F66D00A18D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE45A702230F66D00A18D74 /* AppDelegate.swift */; };
+		FDE45A732230F66D00A18D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE45A722230F66D00A18D74 /* ViewController.swift */; };
+		FDE45A762230F66D00A18D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE45A742230F66D00A18D74 /* Main.storyboard */; };
+		FDE45A782230F67000A18D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE45A772230F67000A18D74 /* Assets.xcassets */; };
+		FDE45A7B2230F67000A18D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE45A792230F67000A18D74 /* LaunchScreen.storyboard */; };
+		FDE45A862230F67100A18D74 /* FilpCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE45A852230F67100A18D74 /* FilpCardTests.swift */; };
+		FDE45A912230F67100A18D74 /* FilpCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE45A902230F67100A18D74 /* FilpCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDE45A822230F67100A18D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE45A652230F66D00A18D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE45A6C2230F66D00A18D74;
+			remoteInfo = FilpCard;
+		};
+		FDE45A8D2230F67100A18D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE45A652230F66D00A18D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE45A6C2230F66D00A18D74;
+			remoteInfo = FilpCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDE45A6D2230F66D00A18D74 /* FilpCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilpCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE45A702230F66D00A18D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDE45A722230F66D00A18D74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDE45A752230F66D00A18D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDE45A772230F67000A18D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDE45A7A2230F67000A18D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDE45A7C2230F67000A18D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE45A812230F67100A18D74 /* FilpCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilpCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE45A852230F67100A18D74 /* FilpCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilpCardTests.swift; sourceTree = "<group>"; };
+		FDE45A872230F67100A18D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE45A8C2230F67100A18D74 /* FilpCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilpCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE45A902230F67100A18D74 /* FilpCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilpCardUITests.swift; sourceTree = "<group>"; };
+		FDE45A922230F67100A18D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE45A6A2230F66D00A18D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE45A7E2230F67100A18D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE45A892230F67100A18D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDE45A642230F66D00A18D74 = {
+			isa = PBXGroup;
+			children = (
+				FDE45A6F2230F66D00A18D74 /* FilpCard */,
+				FDE45A842230F67100A18D74 /* FilpCardTests */,
+				FDE45A8F2230F67100A18D74 /* FilpCardUITests */,
+				FDE45A6E2230F66D00A18D74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE45A6E2230F66D00A18D74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE45A6D2230F66D00A18D74 /* FilpCard.app */,
+				FDE45A812230F67100A18D74 /* FilpCardTests.xctest */,
+				FDE45A8C2230F67100A18D74 /* FilpCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE45A6F2230F66D00A18D74 /* FilpCard */ = {
+			isa = PBXGroup;
+			children = (
+				FDE45A702230F66D00A18D74 /* AppDelegate.swift */,
+				FDE45A722230F66D00A18D74 /* ViewController.swift */,
+				FDE45A742230F66D00A18D74 /* Main.storyboard */,
+				FDE45A772230F67000A18D74 /* Assets.xcassets */,
+				FDE45A792230F67000A18D74 /* LaunchScreen.storyboard */,
+				FDE45A7C2230F67000A18D74 /* Info.plist */,
+			);
+			path = FilpCard;
+			sourceTree = "<group>";
+		};
+		FDE45A842230F67100A18D74 /* FilpCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE45A852230F67100A18D74 /* FilpCardTests.swift */,
+				FDE45A872230F67100A18D74 /* Info.plist */,
+			);
+			path = FilpCardTests;
+			sourceTree = "<group>";
+		};
+		FDE45A8F2230F67100A18D74 /* FilpCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE45A902230F67100A18D74 /* FilpCardUITests.swift */,
+				FDE45A922230F67100A18D74 /* Info.plist */,
+			);
+			path = FilpCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE45A6C2230F66D00A18D74 /* FilpCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE45A952230F67100A18D74 /* Build configuration list for PBXNativeTarget "FilpCard" */;
+			buildPhases = (
+				FDE45A692230F66D00A18D74 /* Sources */,
+				FDE45A6A2230F66D00A18D74 /* Frameworks */,
+				FDE45A6B2230F66D00A18D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilpCard;
+			productName = FilpCard;
+			productReference = FDE45A6D2230F66D00A18D74 /* FilpCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDE45A802230F67100A18D74 /* FilpCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE45A982230F67100A18D74 /* Build configuration list for PBXNativeTarget "FilpCardTests" */;
+			buildPhases = (
+				FDE45A7D2230F67100A18D74 /* Sources */,
+				FDE45A7E2230F67100A18D74 /* Frameworks */,
+				FDE45A7F2230F67100A18D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE45A832230F67100A18D74 /* PBXTargetDependency */,
+			);
+			name = FilpCardTests;
+			productName = FilpCardTests;
+			productReference = FDE45A812230F67100A18D74 /* FilpCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDE45A8B2230F67100A18D74 /* FilpCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE45A9B2230F67100A18D74 /* Build configuration list for PBXNativeTarget "FilpCardUITests" */;
+			buildPhases = (
+				FDE45A882230F67100A18D74 /* Sources */,
+				FDE45A892230F67100A18D74 /* Frameworks */,
+				FDE45A8A2230F67100A18D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE45A8E2230F67100A18D74 /* PBXTargetDependency */,
+			);
+			name = FilpCardUITests;
+			productName = FilpCardUITests;
+			productReference = FDE45A8C2230F67100A18D74 /* FilpCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE45A652230F66D00A18D74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Evan Choo";
+				TargetAttributes = {
+					FDE45A6C2230F66D00A18D74 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					FDE45A802230F67100A18D74 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FDE45A6C2230F66D00A18D74;
+					};
+					FDE45A8B2230F67100A18D74 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FDE45A6C2230F66D00A18D74;
+					};
+				};
+			};
+			buildConfigurationList = FDE45A682230F66D00A18D74 /* Build configuration list for PBXProject "FilpCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE45A642230F66D00A18D74;
+			productRefGroup = FDE45A6E2230F66D00A18D74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE45A6C2230F66D00A18D74 /* FilpCard */,
+				FDE45A802230F67100A18D74 /* FilpCardTests */,
+				FDE45A8B2230F67100A18D74 /* FilpCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE45A6B2230F66D00A18D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE45A7B2230F67000A18D74 /* LaunchScreen.storyboard in Resources */,
+				FDE45A782230F67000A18D74 /* Assets.xcassets in Resources */,
+				FDE45A762230F66D00A18D74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE45A7F2230F67100A18D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE45A8A2230F67100A18D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE45A692230F66D00A18D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE45A732230F66D00A18D74 /* ViewController.swift in Sources */,
+				FDE45A712230F66D00A18D74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE45A7D2230F67100A18D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE45A862230F67100A18D74 /* FilpCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE45A882230F67100A18D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE45A912230F67100A18D74 /* FilpCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDE45A832230F67100A18D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE45A6C2230F66D00A18D74 /* FilpCard */;
+			targetProxy = FDE45A822230F67100A18D74 /* PBXContainerItemProxy */;
+		};
+		FDE45A8E2230F67100A18D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE45A6C2230F66D00A18D74 /* FilpCard */;
+			targetProxy = FDE45A8D2230F67100A18D74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDE45A742230F66D00A18D74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE45A752230F66D00A18D74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDE45A792230F67000A18D74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE45A7A2230F67000A18D74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE45A932230F67100A18D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDE45A942230F67100A18D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE45A962230F67100A18D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FilpCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.whu.EvanChoo.FilpCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDE45A972230F67100A18D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FilpCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.whu.EvanChoo.FilpCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDE45A992230F67100A18D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FilpCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.whu.EvanChoo.FilpCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilpCard.app/FilpCard";
+			};
+			name = Debug;
+		};
+		FDE45A9A2230F67100A18D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FilpCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.whu.EvanChoo.FilpCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FilpCard.app/FilpCard";
+			};
+			name = Release;
+		};
+		FDE45A9C2230F67100A18D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FilpCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.whu.EvanChoo.FilpCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FilpCard;
+			};
+			name = Debug;
+		};
+		FDE45A9D2230F67100A18D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FilpCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.whu.EvanChoo.FilpCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FilpCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE45A682230F66D00A18D74 /* Build configuration list for PBXProject "FilpCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE45A932230F67100A18D74 /* Debug */,
+				FDE45A942230F67100A18D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE45A952230F67100A18D74 /* Build configuration list for PBXNativeTarget "FilpCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE45A962230F67100A18D74 /* Debug */,
+				FDE45A972230F67100A18D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE45A982230F67100A18D74 /* Build configuration list for PBXNativeTarget "FilpCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE45A992230F67100A18D74 /* Debug */,
+				FDE45A9A2230F67100A18D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE45A9B2230F67100A18D74 /* Build configuration list for PBXNativeTarget "FilpCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE45A9C2230F67100A18D74 /* Debug */,
+				FDE45A9D2230F67100A18D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDE45A652230F66D00A18D74 /* Project object */;
+}
