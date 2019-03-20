@@ -14,6 +14,8 @@
 		FDE45A7B2230F67000A18D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE45A792230F67000A18D74 /* LaunchScreen.storyboard */; };
 		FDE45A862230F67100A18D74 /* FilpCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE45A852230F67100A18D74 /* FilpCardTests.swift */; };
 		FDE45A912230F67100A18D74 /* FilpCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE45A902230F67100A18D74 /* FilpCardUITests.swift */; };
+		FDE45AA022312B8A00A18D74 /* Concentrate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE45A9F22312B8A00A18D74 /* Concentrate.swift */; };
+		FDE45AA222312BD200A18D74 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE45AA122312BD200A18D74 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FDE45A8C2230F67100A18D74 /* FilpCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilpCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE45A902230F67100A18D74 /* FilpCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilpCardUITests.swift; sourceTree = "<group>"; };
 		FDE45A922230F67100A18D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE45A9F22312B8A00A18D74 /* Concentrate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentrate.swift; sourceTree = "<group>"; };
+		FDE45AA122312BD200A18D74 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,12 @@
 		FDE45A6F2230F66D00A18D74 /* FilpCard */ = {
 			isa = PBXGroup;
 			children = (
-				FDE45A702230F66D00A18D74 /* AppDelegate.swift */,
+				FDE45A9E223122DC00A18D74 /* Supporting Files */,
 				FDE45A722230F66D00A18D74 /* ViewController.swift */,
 				FDE45A742230F66D00A18D74 /* Main.storyboard */,
-				FDE45A772230F67000A18D74 /* Assets.xcassets */,
-				FDE45A792230F67000A18D74 /* LaunchScreen.storyboard */,
 				FDE45A7C2230F67000A18D74 /* Info.plist */,
+				FDE45A9F22312B8A00A18D74 /* Concentrate.swift */,
+				FDE45AA122312BD200A18D74 /* Card.swift */,
 			);
 			path = FilpCard;
 			sourceTree = "<group>";
@@ -123,6 +127,16 @@
 				FDE45A922230F67100A18D74 /* Info.plist */,
 			);
 			path = FilpCardUITests;
+			sourceTree = "<group>";
+		};
+		FDE45A9E223122DC00A18D74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE45A702230F66D00A18D74 /* AppDelegate.swift */,
+				FDE45A772230F67000A18D74 /* Assets.xcassets */,
+				FDE45A792230F67000A18D74 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			files = (
 				FDE45A732230F66D00A18D74 /* ViewController.swift in Sources */,
 				FDE45A712230F66D00A18D74 /* AppDelegate.swift in Sources */,
+				FDE45AA022312B8A00A18D74 /* Concentrate.swift in Sources */,
+				FDE45AA222312BD200A18D74 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
